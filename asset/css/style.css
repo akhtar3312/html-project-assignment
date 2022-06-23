@@ -176,12 +176,222 @@ li a:hover{
     margin-left: 30px;
     margin-right: 70px;
 } */
+.main-container{
+  padding-bottom: 50px;
+}
 .p-2{
     text-align: center;
 }
-img{
+/* img{
     border-radius: 10px;
+} */
+.ml-auto{
+    text-align: center ;
 }
-.mr-auto{
-    text-align: right ;
+.form-inline{
+    margin-right:100px;
 }
+.navbar-icon{
+    text-align: right;
+}
+.nav-link{
+    text-align: right;
+    font-size: 1.5em;
+  }
+  .card4{
+    width: 443px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #f8f9fa;
+  }
+  .wrapper{
+    max-height: 125px;
+    display: flex;
+    overflow-x: auto;
+    /* margin-left: 200px;
+    margin-right: 200px; */
+
+  }
+  .wrapper .list{
+    min-width: 110px;
+    height: 70px;
+    text-align: center;
+  }
+  .list{
+    font-size: 3.5em;
+  }
+  .card3{
+    width: 443px;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 688px;
+    text-align: center;
+    /* margin-left: 200px;
+    margin-right: 200px; */
+  }
+  .name2{
+    text-align: left;
+    padding-top: 11px;
+    /* height: 30px; */
+  }
+  .collen1{
+    padding-top: 9px;
+    text-align: left;
+  }
+  .profile1{
+    text-align: right;
+    font-size: 2em;
+  }
+  .row-4{
+    height: 50px;
+    padding-left: 10px;
+  }
+  .mr-auto{
+    display: flex;
+    overflow-x: auto;
+  }
+  /* .row-2{
+    text-align: center;
+  } */
+  .link1{
+    text-align: center;
+    font-size: 1.3em;
+    padding: 1px;
+  }
+  .link2{
+    text-align: right;
+    font-size: 1.3em;
+    padding: 5px;
+  }
+  .col-1{
+    width: 33%;
+    text-align: center;
+  }
+  .row-17{
+    width: 33%;
+    text-align: left;
+  }
+  .col-2{
+    margin-top: 20px;
+  }
+  .form-inline{
+    text-align: center;
+  }
+  .name1{
+    text-align: center;
+    font-size: 0.7em;
+  }
+  .col-3{
+    text-align: right;
+  }
+  .col-5{
+    text-align: right;
+  }
+  .row-5{
+    padding-left: 10px;
+    font-size: 0.9em;
+  }
+  .row-6{
+    padding-left: 10px;
+    font-size: 0.9em;
+  }
+  .row-7{
+    padding-left: 10px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  .post1{
+    text-align: left;
+    color: rgb(82, 82, 240);
+  }
+  .col-11{
+    padding-top: 2px;
+  }
+  .card5{
+    /* border-radius: 10px; */
+  /* margin-top: 10px; */
+  max-height: 30px;
+}
+  .col-8{
+    height: 20px;;
+  }
+  .add-comment{
+    width:auto;
+    text-align: left;
+    padding: 0px;
+  }
+  .col-9{
+    text-align: right;
+    font-size: 1.2em;
+  }
+  .col-10{
+    text-align:left;
+    padding: 0px;
+  }
+  .row-8{
+    padding-left: 10px;
+  }
+  /* .col-12{
+    width: 443px;
+  } */
+  .switch{
+    font-size: 0.9em;
+    color: rgb(82, 82, 240);
+  }
+  .row-9{
+    width: 349px;
+    height: 50px;
+  }
+  .col-13{
+    font-size: 2.5em;
+  }
+  .col-14{
+    padding-top: 10px;
+  }
+  .col-15{
+      padding-top: 18px;
+      text-align: end;
+  }
+  .row-10{
+    font-size: 0.9em;
+    padding-left: 10px;
+  }
+  .col-21{
+    font-size: 0.9em;
+  }
+  .row-11{
+    width: 349px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .col-20{
+    font-size: 0.9em;
+    text-align: end;
+  }
+  .row-14{
+    width: 349px;
+  }
+  .col-16{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .row-15{
+    font-size: 0.9em;
+  }
+  .row-16{
+    font-size: 0.7em;
+  }
+  .col-17{
+    padding-top: 10px;
+    text-align: end;
+  }
+  .follow{
+    font-size: 0.9em;
+    color: rgb(82, 82, 240);
+  }
+  .col-18{
+    padding-top: 20px;
+  }
+  .col-22{
+    font-size: 1.2em;
+  }
