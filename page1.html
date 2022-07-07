@@ -1,121 +1,477 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-  <head>
-    <title>Document</title>
+<head>
+    <title>Instagram</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="asset/css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
     </script>
-  </head>
+    <script src="https://kit.fontawesome.com/50214c8d43.js" crossorigin="anonymous"></script>
+</head>
 
-  <body>
 
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Virtual Cash Drawer</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <!-- <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form> -->
-        </div>
-      </nav>
-      <div class="row">
-        <div class="container">
-          <div class="row row_c">
-            <div class="col-lg-3 col_c1">
-              <img src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/firstpagepic1.jpg"></img>
-
+<body class="abcc">
+    <header class="header ">
+        <nav class="navbar navbar-expand-lg abc4 fixed-top">
+            <div class="container">
+                <div class="col-xl-4">
+                <a class="abb1" href="#">
+                    <img src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/insta-logo.png"
+                        height="29" width="103" alt="123"></img>
+                </a>
             </div>
-            <div class="col-lg-6 col_c1">
-              <img src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"></img>
+            <div class="col-xl-3 abb5 abb7">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" style="background-color:#efefef;" type="search" placeholder="Search" aria-label="Search">
+                </form>
             </div>
-            <div class="col-lg-3 col_c2">
-              <div class="row row_a">
-                <div class="col-md-2 md2">
-                  <div class="products p-2">
-                    <table>
-                      <tbody>
-                        <tr class="content">
-                          <td>Total Cash Out</td>
-                          <td><b>$1,500</b></td>
-                        </tr>
-                        <tr class="content">
-                          <td>Cash In</td>
-                          <td><b>$1,500</b></td>
-                        </tr>
-                        <tr class="content">
-                          <td>Change Duo</td>
-                          <td><b>$1,50000</b></td>
-                        </tr>
-                      </tbody>
-                    </table>
+            <div class="col-xl-5 abb6">
+                    <div class="row abb3" >
+                        <div class="col abb4">
+                            <a class="abb2"  href="#"><i class="fa-solid fa-house"></i><span
+                                    class="sr-only">(current)</span></a>
+                            </div>
+                        <div class="col abb4">
+                            <a class="abb2"  href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        </div>
+                        <div class="col abb4">
+                            <a class="abb2"  href="#"><i class="fa-solid fa-square-plus "></i></a>
+                        </div>
+                        <div class="col abb4">
+                            <a class="abb2" href="compass.html"><i class="fa-solid fa-compass "></i></a>
+                        </div>
+                        <div class="col abb4">
+                            <a class="abb2" href="#"><i class="fa-solid fa-heart "></i></a>
+                        </div>
+                        <div class="col abb4">
+                            <a class="abb2 abb9" href="#"><img class="rounded-circle"
+                                src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                height="23" width="23" alt="123"></img></a>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </nav>
+    </header>
 
-                  </div>
+
+    <div class="container abbc">
+        <div class="card card4">
+            <section>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="wrapper abbc2">
+                                <div class=" position-relative abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p1.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p2.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p4.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p5.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="wrapper abbc2">
+                                <div class=" position-relative abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p1.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p5.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p1.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p2.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="wrapper abbc2">
+                                <div class=" position-relative abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p4.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p5.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p2.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p1.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                                <div class=" position-relative  abc8">
+                                    <div class="position-relative abc7">
+                                        <img class="rounded-circle"
+                                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                                            width="58" height="58" alt="123"></img>
+                                    </div>
+                                    <div class="abbc5 m-2">ahmed</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button style="width: 6%;" class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                    <button style="width: 6%;" class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
                 </div>
-                 <!-- <img width="300px" height="245px" src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"></img> -->
-              </div> 
-              <div class="row row-a1">
-                <img src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/firstpagepic2.jpg"></img>
-              </div>
-
-            </div>
-          </div>
-          <!-- <div class="row row_b">
-                    
-                    <div class="col col_c">
-                        <img src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"></img>
-                    </div>
-                    <div class="col col_b">
-                        <img src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"></img>
-                    </div>
-                </div> -->
+            </section>
         </div>
-        <!-- <div class="col">
-                  <img src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"></img>
-              </div>
-              <div class="col">
-                  <img src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping3.jpg"></img>
-              </div> -->
+
+        <div class="card card3">
+            <div class="row row-4">
+                <div class="col-md-1 position-relative m-2">
+                    <div class="position-relative abc6">
+                        <img class="rounded-circle"
+                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                            width="34" height="34" alt="123"></img>
+                    </div>
+                </div>
+                <div class="col-md-8 name2">raiakhtarali</div>
+                <div class="col-md-2 collen1"><b>
+                  <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  ...
+                  </a></b></div>
+            </div>
+            <img height="500px"
+                src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"></img>
+            <div class="container">
+                <div class="row">
+                    <div class="col abb8">
+                        <a class="link1" href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a class="link1" href="#"><i class="fa-regular fa-comment"></i></a>
+                        <a class="link1" href="#"><i class="fa-regular fa-paper-plane"></i></a>
+                    </div>
+                    <div class="col col-5">
+                        <a class="link2" href="#"><i class="fa-regular fa-flag"></i></a>
+                    </div>
+                </div>
+                <div class="row row-5"><b class="like-bold">22,176 likes</b></div>
+                <div class="row row-6">View all 5363 comments</div>
+                <div class="row row-7">3 hours ago</div>
+                <div class="row row-ab"><b class="like-bold"> See translation</b></div>
+            </div>
+
+            <div class="card card5">
+                <div class="row row-8">
+                    <div class="col col-22"><i class="fa-regular fa-face-smile"></i></div>
+                    <div class="col abbc6"><input class="add-comment" placeholder="Add a comment…"
+                         style="height:29px;"   ></input></div>
+                    <div class="col abbc4"><b class="post1">Post</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="card card3">
+            <div class="row row-4">
+                <div class="col-md-1 position-relative m-2">
+                    <div class="position-relative abc6">
+                        <img class="rounded-circle"
+                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                            width="34" height="34" alt="123"></img>
+                    </div>
+                </div>
+                <div class="col-md-8 name2">raiakhtarali</div>
+                <div class="col-md-2 collen1"><b>...</b></div>
+            </div>
+            <img height="500px"
+                src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping4.jpg"></img>
+            <div class="container">
+                <div class="row">
+                    <div class="col abb8">
+                        <a class="link1" href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a class="link1" href="#"><i class="fa-regular fa-comment"></i></a>
+                        <a class="link1" href="#"><i class="fa-regular fa-paper-plane"></i></a>
+                    </div>
+                    <div class="col col-5">
+                        <a class="link2" href="#"><i class="fa-regular fa-flag"></i></a>
+                    </div>
+                </div>
+                <div class="row row-5"><b class="like-bold">22,176 likes</b></div>
+                <div class="row row-6">View all 5363 comments</div>
+                <div class="row row-7">3 hours ago</div>
+                <div class="row row-ab"><b class="like-bold"> See translation</b></div>
+            </div>
+
+            <div class="card card5">
+                <div class="row row-8">
+                    <div class="col col-22"><i class="fa-regular fa-face-smile"></i></div>
+                    <div class="col abbc6"><input class="add-comment" placeholder="Add a comment…"
+                         style="height:29px;"   ></input></div>
+                    <div class="col abbc4"><b class="post1">Post</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="card card3">
+            <div class="row row-4">
+                <div class="col-md-1 position-relative m-2">
+                    <div class="position-relative abc6">
+                        <img class="rounded-circle"
+                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                            width="34" height="34" alt="123"></img>
+                    </div>
+                </div>
+                <div class="col-md-8 name2">raiakhtarali</div>
+                <div class="col-md-2 collen1"><b>...</b></div>
+            </div>
+            <img height="500px"
+                src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping4.jpg"></img>
+            <div class="container">
+                <div class="row">
+                    <div class="col abb8">
+                        <a class="link1" href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a class="link1" href="#"><i class="fa-regular fa-comment"></i></a>
+                        <a class="link1" href="#"><i class="fa-regular fa-paper-plane"></i></a>
+                    </div>
+                    <div class="col col-5">
+                        <a class="link2" href="#"><i class="fa-regular fa-flag"></i></a>
+                    </div>
+                </div>
+                <div class="row row-5"><b class="like-bold">22,176 likes</b></div>
+                <div class="row row-6">View all 5363 comments</div>
+                <div class="row row-7">3 hours ago</div>
+                <div class="row row-ab"><b class="like-bold"> See translation</b></div>
+            </div>
+
+            <div class="card card5">
+                <div class="row row-8">
+                    <div class="col col-22"><i class="fa-regular fa-face-smile"></i></div>
+                    <div class="col abbc6"><input class="add-comment" placeholder="Add a comment…"
+                         style="height:29px;"   ></input></div>
+                    <div class="col abbc4"><b class="post1">Post</b></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col abbc3 sticky abc5">
+            <div class="row">
+               <div class="col">
+                <div class="row row-9">
+                    <div class="col-md-2 col-13">
+                        <img class="rounded-circle"
+                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                            height="56" width="56" alt="123"></img></div>
+                    <div class="col-md-7 col-14">
+                        <div class="row row-010"><b class="name3">rai_akhtar67</b></div>
+                        <div class="row row-10">Rai Akhtar Ali kharal</div>
+                    </div>
+                    <div class="col-md-3 col-15">
+                        <a class="switch">Switch</a>
+                    </div>
+                </div>
+
+                <div class="row row-11">
+                    <div class="col-md-9 col-21"><b>Suggestions For You</b></div>
+                    <!-- <div class="col"></div> -->
+                    <div class="col-md-3 col-20">
+                        <p>See All</p>
+                    </div>
+                </div>
+                <div class="row row-14">
+                    <div class="col-md-2 col-16"><img class="rounded-circle"
+                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p2.jpg"
+                            height="32" width="32" alt="123"></img></div>
+                    <div class="col-md-7 col-name">
+                        <div class="row row-15"><b class="name-bold">ali_ahmed67</b></div>
+                        <div class="row row-16">follow you</div>
+                    </div>
+                    <div class="col-md-3 col-17">
+                        <p class="follow">Follow</p>
+                    </div>
+                </div>
+                <div class="row row-14">
+                    <div class="col-md-2 col-16"><img class="rounded-circle"
+                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p5.jpg"
+                            height="32" width="32" alt="123"></img></div>
+                    <div class="col-md-7 col-name">
+                        <div class="row row-15"><b class="name-bold">ali_ahmed67</b></div>
+                        <div class="row row-16">follow you</div>
+                    </div>
+                    <div class="col-md-3 col-17">
+                        <p class="follow">Follow</p>
+                    </div>
+                </div>
+                <div class="row row-14">
+                    <div class="col-md-2 col-16"><img class="rounded-circle"
+                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                            height="32" width="32" alt="123"></img></div>
+                    <div class="col-md-7 col-name">
+                        <div class="row row-15"><b class="name-bold">ali_ahmed67</b></div>
+                        <div class="row row-16">follow you</div>
+                    </div>
+                    <div class="col-md-3 col-17">
+                        <p class="follow">Follow</p>
+                    </div>
+                </div>
+                <div class="row row-14">
+                    <div class="col-md-2 col-16"><img class="rounded-circle"
+                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p4.jpg"
+                            height="32" width="32" alt="123"></img></div>
+                    <div class="col-md-7 col-name">
+                        <div class="row row-15"><b class="name-bold">ali_ahmed67</b></div>
+                        <div class="row row-16">follow you</div>
+                    </div>
+                    <div class="col-md-3 col-17">
+                        <p class="follow">Follow</p>
+                    </div>
+                </div>
+                <div class="row row-14">
+                    <div class="col-md-2 col-16"><img class="rounded-circle"
+                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p5.jpg"
+                            height="32" width="32" alt="123"></img></div>
+                    <div class="col-md-7 col-name">
+                        <div class="row row-15"><b class="name-bold">ali_ahmed67</b></div>
+                        <div class="row row-16">follow you</div>
+                    </div>
+                    <div class="col-md-3 col-17">
+                        <p class="follow">Follow</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
-
-  </html>
+</body>
