@@ -2,12 +2,15 @@
 <html lang="en">
 
 <head>
-    <title>instagram message</title>
+    <title>Instagram</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="asset/css/style1.css" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <script type="text/javascript" src="./scripts.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
@@ -18,251 +21,492 @@
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/50214c8d43.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    <nav class="navbar navbar-expand-lg abc4 fixed-top">
-        <div class="container">
-            <div class="col-xl-4  abb1">
-            <a class="" href="#">
-                <img src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/insta-logo.png"
-                    height="29" width="103" alt="123"></img>
-            </a>
-        </div>
-        <div class="col-xl-3 abb5 abb7">
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
-        </div>
-        <div class="col-xl-5 abb6">
-                <div class="row abb3">
-                    <div class="col-md-1"></div>
-                    <div class="col abb4">
-                        <a class="abb2"  href="#"><i class="fa-solid fa-house"></i><span
-                                class="sr-only">(current)</span></a>
-                        </div>
-                    <div class="col abb4">
-                        <a class="abb2"  href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
-                    </div>
-                    <div class="col abb4">
-                        <a class="abb2"  href="#"><i class="fa-solid fa-square-plus "></i></a>
-                    </div>
-                    <div class="col abb4">
-                        <a class="abb2" href="compass.html"><i class="fa-solid fa-compass "></i></a>
-                    </div>
-                    <div class="col abb4">
-                        <a class="abb2" href="#"><i class="fa-solid fa-heart "></i></a>
-                    </div>
-                    <div class="col abb4">
-                        <a class="abb2" href="#"><i class="fa-solid fa-circle-user "></i></a>
-                    </div>
+
+    <!-- Navigation bar -->
+    <header class="header ">
+        <nav class="navbar navbar-expand-lg abc4 fixed-top">
+            <div class="container acb8">
+                <div class="col-xl-4 acb7 aab2">
+                    <a class="abb1 " href="#">
+                        <img class="aab1"
+                            src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/insta-logo.png"
+                            height="29" width="103" alt="123"></img>
+                    </a>
                 </div>
-        </div>
-        </div>
-    </nav>
-    <!-- <nav class="navbar navbar-expand-lg abc4 fixed-top">
-        <div class="container">
-            <a class="navbar-brand abc" href="#">
-                <img src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/insta-logo.png"
-                    height="29" width="103" alt="123"></img>
-            </a>
-            <form class="d-flex abc1 abbc1" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse abc2 " id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto abc3 ">
-                    <li class="nav-item ">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-house"></i><span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-brands fa-facebook-messenger "></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-square-plus "></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="compass.html"><i class="fa-solid fa-compass "></i></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-heart "></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-circle-user "></i></a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </nav> -->
-
-        <!-- <div class="wrapper"> -->
-        <!-- <section>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping4.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
+                <div class="col-xl-4 abb5 abb7">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" style="background-color:#efefef; width: 268px; border: none;"
+                            type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+                <div class="col-xl-4 abb6">
+                    <div class="row acb9">
+                        <div class="wrapper ">
+                            <div class="abb4">
+                                <a class="abb2" href="#"><svg aria-label="Home" class="_ab6-" color="#262626"
+                                        fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <path
+                                            d="M22 23h-6.001a1 1 0 01-1-1v-5.455a2.997 2.997 0 10-5.993 0V22a1 1 0 01-1 1H2a1 1 0 01-1-1V11.543a1.002 
+                                    1.002 0 01.31-.724l10-9.543a1.001 1.001 0 011.38 0l10 9.543a1.002 1.002 0 01.31.724V22a1 1 0 01-1 1z">
+                                        </path>
+                                    </svg><span class="sr-only">(current)</span></a>
                             </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
+                            <div class="abb4">
+                                <a class="abb2" href="#"><svg aria-label="Messenger" class="_ab6-" color="#262626"
+                                        fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <path
+                                            d="M12.003 2.001a9.705 9.705 0 110 19.4 10.876 10.876 0 01-2.895-.384.798.798 0 00-.533.04l-1.984.876a.801.801 0 01-1.123-.708l-.054-1.78a.806.806 0 00-.27-.569 9.49 9.49 0 01-3.14-7.175 9.65 9.65 0 0110-9.7z"
+                                            fill="none" stroke="currentColor" stroke-miterlimit="10"
+                                            stroke-width="1.739">
+                                        </path>
+                                        <path
+                                            d="M17.79 10.132a.659.659 0 00-.962-.873l-2.556 2.05a.63.63 0 01-.758.002L11.06 9.47a1.576 1.576 0 00-2.277.42l-2.567 3.98a.659.659 0 00.961.875l2.556-2.049a.63.63 0 01.759-.002l2.452 1.84a1.576 1.576 0 002.278-.42z"
+                                            fill-rule="evenodd"></path>
+                                    </svg></a>
                             </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping3.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
+                            <div class="abb4">
+                                <a data-bs-toggle="modal" data-bs-target="#addpost" class="abb2" href="#"><svg
+                                        aria-label="New post" class="_ab6-" color="#262626" fill="#262626" height="24"
+                                        role="img" viewBox="0 0 24 24" width="24">
+                                        <path
+                                            d="M2 12v3.45c0 2.849.698 4.005 1.606 4.944.94.909 2.098 1.608 4.946 1.608h6.896c2.848 0 4.006-.7 4.946-1.608C21.302 19.455 22 18.3 22 15.45V8.552c0-2.849-.698-4.006-1.606-4.945C19.454 2.7 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.547 2 5.703 2 8.552z"
+                                            fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"></path>
+                                        <line fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" x1="6.545" x2="17.455" y1="12.001"
+                                            y2="12.001"></line>
+                                        <line fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" x1="12.003" x2="12.003" y1="6.545"
+                                            y2="17.455"></line>
+                                    </svg></a>
                             </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping4.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
+                            <div class="abb4">
+                                <a class="abb2" href="compass.html"><svg aria-label="Find People" class="_ab6-"
+                                        color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24"
+                                        width="24">
+                                        <polygon fill="none"
+                                            points="13.941 13.953 7.581 16.424 10.06 10.056 16.42 7.585 13.941 13.953"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2"></polygon>
+                                        <polygon fill-rule="evenodd"
+                                            points="10.06 10.056 13.949 13.945 7.581 16.424 10.06 10.056"></polygon>
+                                        <circle cx="12.001" cy="12.005" fill="none" r="10.5" stroke="currentColor"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+                                    </svg></a>
                             </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping3.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
+                            <div class="abb4">
+                                <a class="abb2" href="#"><svg aria-label="Like" class="_ab6-" color="#262626"
+                                        fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <path
+                                            d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+                                        </path>
+                                    </svg></a>
                             </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping4.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping3.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping4.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping4.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping3.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping3.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping4.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping3.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
-                            </div>
-                            <div class="col abc2">
-                                <img class="rounded-circle"
-                                    src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/ping2.jpg"
-                                    height="50" width="50" alt="123"></img>
-                                <p class="carousel-img">ahmed</p>
+                            <div class="abb4">
+                                <a class="abb2 abb9" href="#"><img class="rounded-circle" data-bs-toggle="popover"
+                                        title="Popover title" data-bs-content="gksahslk fjasfhsg ashasla"
+                                        src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                        height="24" width="24" alt="123"></img></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button style="width: 6%;" class="carousel-control-prev" type="button"
-                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden"></span>
-                </button>
-                <button style="width: 6%;" class="carousel-control-next" type="button"
-                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden"></span>
-                </button>
             </div>
-        </section> -->
-        <!-- </div> -->
-    <button type="button" style="margin-top: 100px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Launch demo modal
-      </button>
-      
-      <!-- Modal -->
-      
+        </nav>
+    </header>
+
+    <!-- Main Body -->
+
+    <div class="container" id="avb1">
+        <div class="card accb1">
+            <div class="container">
+                <div class="row azb">
+                    <div class="col">
+                        <!-- <section> -->
+                        <div class="row accb2 avb8">
+                            <div class="col-2"></div>
+                            <div class="col-8 accb4">raiakhtarali <span
+                                    style="display: inline-block; transform: rotate(180deg);" data-bs-toggle="modal"
+                                    data-bs-target="#switchaccount"><svg aria-label="Down chevron icon" class="_ab6-"
+                                        color="#262626" fill="#262626" height="20" role="img" viewBox="0 0 24 24"
+                                        width="20">
+                                        <path
+                                            d="M21 17.502a.997.997 0 01-.707-.293L12 8.913l-8.293 8.296a1 1 0 11-1.414-1.414l9-9.004a1.03 1.03 0 011.414 0l9 9.004A1 1 0 0121 17.502z">
+                                        </path>
+                                    </svg></span></div>
+                            <div class="col-2 accb4" data-bs-toggle="modal" data-bs-target="#sendmsg"><svg
+                                    aria-label="New message" class="_ab6-" color="#262626" fill="#262626" height="24"
+                                    role="img" viewBox="0 0 24 24" width="24">
+                                    <path
+                                        d="M12.202 3.203H5.25a3 3 0 00-3 3V18.75a3 3 0 003 3h12.547a3 3 0 003-3v-6.952"
+                                        fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"></path>
+                                    <path
+                                        d="M10.002 17.226H6.774v-3.228L18.607 2.165a1.417 1.417 0 012.004 0l1.224 1.225a1.417 1.417 0 010 2.004z"
+                                        fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"></path>
+                                    <line fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" x1="16.848" x2="20.076" y1="3.924"
+                                        y2="7.153"></line>
+                                </svg></div>
+                        </div>
+                        <div class="row accb3 avb8">
+                            <div class="col-7">
+                                <nav>
+                                    <div class="row">
+                                        <div class="col-6 accb4"><a>PRIMARY</a></div>
+                                        <div class="col-6 accb4"><a>GENERAL</a></div>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="col-5 accb45">Requests(1)</div>
+                        </div>
+                        <!-- </section> -->
+                        <div class="row avb avb8">
+                            <!-- <div class="avb"></div> -->
+                            <div class="row accb5">
+                                <div class="col-3 accb6"><img class="rounded-circle bbc"
+                                        src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                                        height="56" width="56" alt="123"></img></div>
+                                <div class="col-9 azb1">
+                                    <div class="row accb7 bbc">ali ahmed</div>
+                                    <div class="row accb8">Active yesterday</div>
+                                </div>
+                            </div>
+                            <div class="row accb5">
+                                <div class="col-3 accb6"><img class="rounded-circle bbc"
+                                        src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                                        height="56" width="56" alt="123"></img></div>
+                                <div class="col-9">
+                                    <div class="row accb7 bbc accb9">ali ahmed ali</div>
+                                    <div class="row accb8">Active yesterday</div>
+                                </div>
+                            </div>
+                            <div class="row accb5">
+                                <div class="col-3 accb6"><img class="rounded-circle bbc"
+                                        src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                                        height="56" width="56" alt="123"></img></div>
+                                <div class="col-9">
+                                    <div class="row accb7 bbc accb9">ahmed ali</div>
+                                    <div class="row accb8">Active yesterday</div>
+                                </div>
+                            </div>
+                            <div class="row accb5">
+                                <div class="col-3 accb6"><img class="rounded-circle bbc"
+                                        src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                                        height="56" width="56" alt="123"></img></div>
+                                <div class="col-9">
+                                    <div class="row accb7 bbc accb9">akhtar ali</div>
+                                    <div class="row accb8">Active yesterday</div>
+                                </div>
+                            </div>
+                            <div class="row accb5">
+                                <div class="col-3 accb6"><img class="rounded-circle bbc"
+                                        src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                                        height="56" width="56" alt="123"></img></div>
+                                <div class="col-9">
+                                    <div class="row accb7 bbc accb9">ali_ahmed</div>
+                                    <div class="row accb8">Active yesterday</div>
+                                </div>
+                            </div>
+                            <div class="row accb5">
+                                <div class="col-3 accb6"><img class="rounded-circle bbc"
+                                        src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                                        height="56" width="56" alt="123"></img></div>
+                                <div class="col-9">
+                                    <div class="row accb7 bbc accb9">ali_ahmed</div>
+                                    <div class="row accb8">Active yesterday</div>
+                                </div>
+                            </div>
+                            <div class="row accb5">
+                                <div class="col-3 accb6"><img class="rounded-circle bbc"
+                                        src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                                        height="56" width="56" alt="123"></img></div>
+                                <div class="col-9">
+                                    <div class="row accb7 bbc accb9">ali_ahmed</div>
+                                    <div class="row accb8">Active yesterday</div>
+                                </div>
+                            </div>
+                            <div class="row accb5">
+                                <div class="col-3 accb6"><img class="rounded-circle bbc"
+                                        src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/p3.jpg"
+                                        height="56" width="56" alt="123"></img></div>
+                                <div class="col-9">
+                                    <div class="row accb7 bbc accb9">ali_ahmed</div>
+                                    <div class="row accb8">Active yesterday</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- <div class="container"> -->
+                        <div class="row" id="avb9">
+                            <div class="col avb3">
+                                <div class="row ">
+                                    <div class="col avb4">
+                                        <svg aria-label="Direct" class="_ab6-" color="#262626" fill="#262626"
+                                            height="96" role="img" viewBox="0 0 96 96" width="96">
+                                            <circle cx="48" cy="48" fill="none" r="47" stroke="currentColor"
+                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                            </circle>
+                                            <line fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                stroke-width="2" x1="69.286" x2="41.447" y1="33.21" y2="48.804">
+                                            </line>
+                                            <polygon fill="none"
+                                                points="47.254 73.123 71.376 31.998 24.546 32.002 41.448 48.805 47.254 73.123"
+                                                stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+                                            </polygon>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col avb5">Your Messages</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col avb6">Send private photos and messages to a friend or group.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col"><button class="avb7" data-bs-toggle="modal"
+                                            data-bs-target="#sendmsg">Send Message</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="switchaccount">
+        <div class="modal-dialog" style="width: 400px;">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row azb2">
+                        <div class="col-2"></div>
+                        <div class="col-8 azb8">Switch accounts</div>
+                        <div class="col-2 ">
+                            <button class="azb7">
+                                <svg aria-label="Close" data-bs-dismiss="modal" class="_ab6-" color="#262626"
+                                    fill="#262626" height="18" role="img" viewBox="0 0 24 24" width="18">
+                                    <polyline fill="none" points="20.643 3.357 12 12 3.353 20.647" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></polyline>
+                                    <line fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" x1="20.649" x2="3.354" y1="20.649"
+                                        y2="3.354"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="azb3">
+                    <div class="row azb9">
+                        <div class="col-2"><img class="rounded-circle bbc"
+                                src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                height="56" width="56" alt="123"></img></div>
+                        <div class="col-8 axb1">
+                            <div class="bbc axb">raiakhtarali</div>
+                        </div>
+                        <div class="col-2 axb2">
+                            <div class="bbc">
+                                <svg aria-label="Checkmark filled icon" class="_ab6-" color="#0095f6" fill="#0095f6"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <path
+                                        d="M12.001.504a11.5 11.5 0 1011.5 11.5 11.513 11.513 0 00-11.5-11.5zm5.706 9.21l-6.5 6.495a1 1 0 01-1.414-.001l-3.5-3.503a1 1 0 111.414-1.414l2.794 2.796L16.293 8.3a1 1 0 011.414 1.415z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class=" azb4">Log into an Existing Account</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="sendmsg">
+        <div class="modal-dialog" style="width: 400px;">
+            <div class="modal-content" style="padding-bottom: 5px;">
+                <div class="container">
+                    <div class="row azb2">
+                        <div class="col-2">
+                            <button class="azb7">
+                                <svg aria-label="Close" data-bs-dismiss="modal" class="_ab6-" color="#262626"
+                                    fill="#262626" height="18" role="img" viewBox="0 0 24 24" width="18">
+                                    <polyline fill="none" points="20.643 3.357 12 12 3.353 20.647" stroke="currentColor"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></polyline>
+                                    <line fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" x1="20.649" x2="3.354" y1="20.649"
+                                        y2="3.354"></line>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="col-8 azb8">
+                            <h1 class="axb4">New message</h1>
+                        </div>
+                        <div class="col-2 axb3">
+                            Next
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row axb5">
+                        <div class="col-1">
+                            <h4 class="axb7">To:</h4>
+                        </div>
+                        <div class="col-10">
+                            <input class="axb6" type="text" placeholder="Search...">
+                        </div>
+                        <div class="col-1"></div>
+                    </div>
+                </div>
+                <div class="container asb">
+                    <div class="container">
+                        <h4 class="axb8">Suggested</h4>
+                    </div>
+                    <div class="row axb9">
+                        <div class="col-2"><img class="rounded-circle bbc"
+                                src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                height="44" width="44" alt="123"></img></div>
+                        <div class="col-9">
+                            <div class="bbc asb1">raiakhtarali</div>
+                            <div class="asb3">raiakhtarali</div>
+                        </div>
+                        <div class="col-1 asb2">
+                            <div class="bbc">
+                                <svg aria-label="Toggle selection" class="_ab6-" color="#262626" fill="#262626"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12.008" cy="12" fill="none" r="11.25" stroke="currentColor"
+                                        stroke-linejoin="round" stroke-width="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row axb9">
+                        <div class="col-2"><img class="rounded-circle bbc"
+                                src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                height="44" width="44" alt="123"></img></div>
+                        <div class="col-9">
+                            <div class="bbc asb1">raiakhtarali</div>
+                            <div class="asb3">raiakhtarali</div>
+                        </div>
+                        <div class="col-1 asb2">
+                            <div class="bbc">
+                                <svg aria-label="Toggle selection" class="_ab6-" color="#262626" fill="#262626"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12.008" cy="12" fill="none" r="11.25" stroke="currentColor"
+                                        stroke-linejoin="round" stroke-width="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row axb9">
+                        <div class="col-2"><img class="rounded-circle bbc"
+                                src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                height="44" width="44" alt="123"></img></div>
+                        <div class="col-9">
+                            <div class="bbc asb1">raiakhtarali</div>
+                            <div class="asb3">raiakhtarali</div>
+                        </div>
+                        <div class="col-1 asb2">
+                            <div class="bbc">
+                                <svg aria-label="Toggle selection" class="_ab6-" color="#262626" fill="#262626"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12.008" cy="12" fill="none" r="11.25" stroke="currentColor"
+                                        stroke-linejoin="round" stroke-width="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row axb9">
+                        <div class="col-2"><img class="rounded-circle bbc"
+                                src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                height="44" width="44" alt="123"></img></div>
+                        <div class="col-9">
+                            <div class="bbc asb1">raiakhtarali</div>
+                            <div class="asb3">raiakhtarali</div>
+                        </div>
+                        <div class="col-1 asb2">
+                            <div class="bbc">
+                                <svg aria-label="Toggle selection" class="_ab6-" color="#262626" fill="#262626"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12.008" cy="12" fill="none" r="11.25" stroke="currentColor"
+                                        stroke-linejoin="round" stroke-width="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row axb9">
+                        <div class="col-2"><img class="rounded-circle bbc"
+                                src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                height="44" width="44" alt="123"></img></div>
+                        <div class="col-9">
+                            <div class="bbc asb1">raiakhtarali</div>
+                            <div class="asb3">raiakhtarali</div>
+                        </div>
+                        <div class="col-1 asb2">
+                            <div class="bbc">
+                                <svg aria-label="Toggle selection" class="_ab6-" color="#262626" fill="#262626"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12.008" cy="12" fill="none" r="11.25" stroke="currentColor"
+                                        stroke-linejoin="round" stroke-width="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row axb9">
+                        <div class="col-2"><img class="rounded-circle bbc"
+                                src="C:/Users/raiak/OneDrive/Desktop/html-project-assignment/asset/images/profile.jpeg"
+                                height="44" width="44" alt="123"></img></div>
+                        <div class="col-9">
+                            <div class="bbc asb1">raiakhtarali</div>
+                            <div class="asb3">raiakhtarali</div>
+                        </div>
+                        <div class="col-1 asb2">
+                            <div class="bbc">
+                                <svg aria-label="Toggle selection" class="_ab6-" color="#262626" fill="#262626"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12.008" cy="12" fill="none" r="11.25" stroke="currentColor"
+                                        stroke-linejoin="round" stroke-width="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
+
+<!-- <svg aria-label="Toggle selection" class="_ab6-" color="#262626" fill="#262626" height="24" role="img"
+    viewBox="0 0 24 24" width="24">
+    <circle cx="12.008" cy="12" fill="none" r="11.25" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5">
+    </circle>
+</svg>
+<svg aria-label="Toggle selection" class="_ab6-" color="#0095f6" fill="#0095f6" height="24" role="img"
+    viewBox="0 0 24 24" width="24">
+    <path
+        d="M12.001.504a11.5 11.5 0 1011.5 11.5 11.513 11.513 0 00-11.5-11.5zm5.706 9.21l-6.5 6.495a1 1 0 01-1.414-.001l-3.5-3.503a1 1 0 111.414-1.414l2.794 2.796L16.293 8.3a1 1 0 011.414 1.415z">
+    </path>
+</svg> -->
+<!-- <div id="d2" onclick="d1"></div>
+<svg aria-label="Like" id="d2" onclick="d1" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24"
+    width="24">
+    <path
+        d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+    </path>
+</svg>
+</div> -->
+<!-- <svg aria-label="Unlike" class="_ab6-" color="#ed4956" fill="#ed4956" height="24" role="img" viewBox="0 0 48 48"
+    width="24">
+    <path
+        d="M34.6 3.1c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5s1.1-.2 1.6-.5c1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+    </path>
+</svg> -->
