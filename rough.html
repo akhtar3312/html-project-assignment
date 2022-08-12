@@ -5,7 +5,7 @@
     <title>instagram message</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="asset/css/style1.css" />
+    <link rel="stylesheet" href="asset/css/style.css" />
     <script src="scripts.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -61,7 +61,7 @@
                         <a class="abb2" href="#"><i class="fa-solid fa-house"></i><span
                                 class="sr-only">(current)</span></a>
                     </div>
-                    <div class="col abb4">
+                    <div class="col abb4" id="poper" data-bs-toggle="popover">
                         <a class="abb2" href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
                     </div>
                     <div class="col abb4">
@@ -270,16 +270,16 @@
         data-bs-placement="bottom" data-bs-content="Bottom popover" style="background-color: red;">
         Popover on bottom
     </button> -->
-    <div class="container">
+    <!-- <div class="container">
 
         <button type="button" class="btn btn-lg btn-danger" id="poper" data-bs-toggle="popover"
         data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle
             popover</button>
-</div>
+</div> -->
 
     <div style="width:230px; overflow: none; display: block;" id="pop">
-        <div class="row ">
-            <div class="col-2 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        <div class="row" style="height: 30px; align-items:center;">
+            <div class="col-1 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-person-circle" viewBox="0 0 16 16">
                     <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                     <path fill-rule="evenodd"
@@ -287,8 +287,8 @@
                 </svg></div>
             <div class="col-6">Profile</div>
         </div>
-        <div class="row ">
-            <div class="col-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+        <div class="row " style="height: 30px; align-items:center;">
+            <div class="col-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
                     <path fill-rule="evenodd"
                         d="M5 3.75C5 2.784 5.784 2 6.75 2h10.5c.966 0 1.75.784 1.75 1.75v17.5a.75.75 0 01-1.218.586L12 17.21l-5.781 4.625A.75.75 0 015 21.25V3.75zm1.75-.25a.25.25 0 00-.25.25v15.94l5.031-4.026a.75.75 0 01.938 0L17.5 19.69V3.75a.25.25 0 00-.25-.25H6.75z">
                     </path>
@@ -296,16 +296,16 @@
             </div>
             <div class="col-8">Saved</div>
         </div>
-        <div class="row ">
-            <div class="col-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        <div class="row " style="height: 30px; align-items:center;">
+            <div class="col-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-gear-wide" viewBox="0 0 16 16">
                     <path
                         d="M8.932.727c-.243-.97-1.62-.97-1.864 0l-.071.286a.96.96 0 0 1-1.622.434l-.205-.211c-.695-.719-1.888-.03-1.613.931l.08.284a.96.96 0 0 1-1.186 1.187l-.284-.081c-.96-.275-1.65.918-.931 1.613l.211.205a.96.96 0 0 1-.434 1.622l-.286.071c-.97.243-.97 1.62 0 1.864l.286.071a.96.96 0 0 1 .434 1.622l-.211.205c-.719.695-.03 1.888.931 1.613l.284-.08a.96.96 0 0 1 1.187 1.187l-.081.283c-.275.96.918 1.65 1.613.931l.205-.211a.96.96 0 0 1 1.622.434l.071.286c.243.97 1.62.97 1.864 0l.071-.286a.96.96 0 0 1 1.622-.434l.205.211c.695.719 1.888.03 1.613-.931l-.08-.284a.96.96 0 0 1 1.187-1.187l.283.081c.96.275 1.65-.918.931-1.613l-.211-.205a.96.96 0 0 1 .434-1.622l.286-.071c.97-.243.97-1.62 0-1.864l-.286-.071a.96.96 0 0 1-.434-1.622l.211-.205c.719-.695.03-1.888-.931-1.613l-.284.08a.96.96 0 0 1-1.187-1.186l.081-.284c.275-.96-.918-1.65-1.613-.931l-.205.211a.96.96 0 0 1-1.622-.434L8.932.727zM8 12.997a4.998 4.998 0 1 1 0-9.995 4.998 4.998 0 0 1 0 9.996z" />
                 </svg></div>
-            <div class="col-8">Settings</div>
+            <div class="col-9">Settings</div>
         </div>
-        <div class="row ">
-            <div class="col-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        <div class="row " style="height: 30px; align-items:center;">
+            <div class="col-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-arrow-repeat" viewBox="0 0 16 16">
                     <path
                         d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z" />
@@ -314,13 +314,63 @@
                 </svg></div>
             <div class="col-8"> Switch Account </div>
         </div>
-        <div class="row border-top mt-1 justify-content-start ">
+        <div class="row border-top mt-1 justify-content-start " style="height: 30px; align-items:center;">
             <div class="col-8 "> Log Out</div>
         </div>
-
     </div>
 
+    
+    <div class="dropdown dropdown-menu-end">
+        <button type="button" class="btn btn-primary" data-bs-toggle="dropdown">
+            <svg  aria-label="Like" class="_ab6- " color="#262626"
+            fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+            <path
+                d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+            </path>
+        </svg>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Link 1</a></li>
+          <li><a class="dropdown-item" href="#">Link 2</a></li>
+          <li><a class="dropdown-item" href="#">Link 3</a></li>
+        </ul>
+      </div>
+
+      <svg aria-label="Save" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24"><polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon></svg>
+      <svg aria-label="Remove" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+        <path d="M20 22a.999.999 0 01-.687-.273L12 14.815l-7.313 6.912A1 1 0 013 21V3a1 1 0 011-1h16a1 1 0 011 1v18a1 1 0 01-1 1z"></path></svg>
+
+      <!-- <div id="down">
+        scroll down please...
+      </div>
+      
+      <video id="video1" controls muted played="false">
+        <source src="Laung Laachi.mp4" type="video/mp4">
+        
+        Your browser does not support the video tag.
+      </video>
+      
+      <video id="video2" controls muted played="false">
+        <source src="Bay_Fikriyan_Song.mp4" type="video/mp4"/>
+        
+        Your browser does not support the video tag.
+      </video> -->
+      <button id="btn">click</button>
+      <button id="btn">click</button>
+      <button id="btn">click</button>
     <script>
+        const bt = document.getElementById('btn');
+
+//  Toggle button text on click
+// bt.addEventListener('click', function handleClick() {
+//   let abc = 'click ';
+
+//   if (bt.textContent.toLowerCase().includes(abc.toLowerCase())) {
+//     bt.textContent = 'Button';
+//   } else {
+//     bt.textContent = abc;
+//   }
+// });
         $(function(){
     $('#poper').popover({
         html: true,
@@ -329,6 +379,7 @@
     });
 
 });
+
 // $(function(){
 //     $('#poper1').popover({
 //         html: true,
@@ -346,18 +397,47 @@
         <i class="fa fa-heart-o"></i> <span data-toggle="I Love It"> <a onclick="like()"> Give Heart </a></span>
         </div>
            <script>
-       var isLiked=false;
-       var a=0;
-        function like()
-         {
-         isLiked=!isLiked;
-         if(isLiked) {
-           a = document.getElementById("totalLikes").innerHTML = parseInt(a)+1;
-         }
-         else {
-         a = document.getElementById("totalLikes").innerHTML = parseInt(a)-1;
-         }
-         }
+            $.fn.isInViewport = function() {
+  var elementTop = $(this).offset().top;
+  var elementBottom = elementTop + $(this).outerHeight();
+
+  var viewportTop = $(window).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+
+  return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
+setInterval(function() {
+  $('video').each(function(){
+
+      let id = $(this).attr("id");
+      let played = $(this).attr("played");
+
+      if ($(this).isInViewport()) {
+          if (played == "false") { 
+              $(this)[0].play();
+              $(this).attr("played", "true");  
+          }
+      } else {
+          if (played == "true") { 
+              $(this)[0].pause();
+              $(this).attr("played", "false");  
+          }
+      }
+  });
+}, 1000);
+    //    var isLiked=false;
+    //    var a=0;
+    //     function like()
+    //      {
+    //      isLiked=!isLiked;
+    //      if(isLiked) {
+    //        a = document.getElementById("totalLikes").innerHTML = parseInt(a)+1;
+    //      }
+    //      else {
+    //      a = document.getElementById("totalLikes").innerHTML = parseInt(a)-1;
+    //      }
+    //      }
         </script>
         <i class="fa fa-heart"></i> <strong id="totalLikes" > 0 </strong>  people love it
 </body>
